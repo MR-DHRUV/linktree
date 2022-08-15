@@ -58,6 +58,13 @@
   background-color: #3c6dff67 !important;
 }
 
+#authify:hover {
+  background-color: #88110486 !important;
+}
+#shotify:hover {
+  background: linear-gradient(270deg, #0fffc36c, #7f0fff77) !important;
+}
+
 .spotifyPlayer {
   overflow: hidden !important;
 }

@@ -72,22 +72,33 @@ function App() {
 
         <ul className={window.innerWidth < 780 ? "list-group mt-5 pt-3 responsiveWidth" : "list-group w-75 mx-5 px-5 mt-5 pt-3"}>
           <h2 className='text-white fw-bold'>#Projects</h2>
-          <a href="https://mausam-mr-dhruv.vercel.app/#/" target="_blank" rel="noopener noreferrer" className="list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" id='mausam'>
+          <a href="https://api-authify.herokuapp.com" target="_blank" rel="noopener noreferrer" className="list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" id='authify'>
+
+           
+            <img src={require('./Screenshot 2022-08-15 170151.png')} width="30" alt="" srcset="" className='marginRight' />
+            Authify
+
+          </a>
+
+          <a href="https://mausam-mr-dhruv.vercel.app/#/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='mausam'>
 
             <img src={require('./660e0ad8-623c-4c61-a34a-9703b685c217.png')} width="30" alt="" srcset="" className='marginRight' />
             Mausam
+          </a>
+          <a href="https://notify-mr-dhruv.vercel.app/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='notify'>
 
+          <img src={require('./writing192.png')} width="30" alt="" srcset="" className='marginRight' />
+
+          Notify
+          </a>
+          <a href="https://shotifylink.herokuapp.com/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='shotify'>
+            <img src={require('./favicon.ico')} width="30" alt="" srcset="" className='marginRight' />
+            Shotify
           </a>
 
-          <a href="https://mr-dhruv.github.io/Textify.me/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='texify'>
-
-            <img src={require('./favicon(1)(1).png')} width="30" alt="" srcset="" className='marginRight' />
+          <a href="https://mr-dhruv.github.io/Textify.me/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="texify">
+          <img src={require('./favicon(1)(1).png')} width="30" alt="" srcset="" className='marginRight' />
             Textify
-          </a>
-
-          <a href="https://notify-mr-dhruv.vercel.app/#/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="notify">
-            <img src={require('./writing192.png')} width="30" alt="" srcset="" className='marginRight' />
-            Notify
           </a>
         </ul>
       </div>
