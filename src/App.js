@@ -101,11 +101,11 @@ function App() {
           </a>
 
           <a href="http://api-tunify.herokuapp.com/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="authify">
-          <img src={require('./music.png')} width="30" alt="" srcset="" className='marginRight' />
+          <img src={require('./music.png')} width="34" alt="" srcset="" className='marginRight' />
             Tunify
           </a>
         </ul>
-      </div>
+      </div> 
 
       <div className={window.innerWidth < 780 ? "container-xxl mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center" : "container mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center w-50 px-5"}>
         <h2 className='text-white fw-bold'>Jamm Out To Some Music</h2>
