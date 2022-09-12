@@ -72,7 +72,7 @@ function App() {
 
         <ul className={window.innerWidth < 780 ? "list-group mt-5 pt-3 responsiveWidth" : "list-group w-75 mx-5 px-5 mt-5 pt-3"}>
           <h2 className='text-white fw-bold'>#Projects</h2>
-          <a href="https://api-authify.herokuapp.com" target="_blank" rel="noopener noreferrer" className="list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" id='authify'>
+          <a href="https://api-authify.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" id='authify'>
 
            
             <img src={require('./Screenshot 2022-08-15 170151.png')} width="30" alt="" srcset="" className='marginRight' />
