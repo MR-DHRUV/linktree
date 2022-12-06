@@ -21,7 +21,7 @@ function App() {
       <div id='stars3'></div>
 
 
-      <div className={window.innerWidth < 780 ? "topSection mt-4 d-flex justify-content-center flex-column align-items-center" : "topSection mt-5 pt-5 d-flex justify-content-center flex-column align-items-center"}>
+      <div className={window.innerWidth < 780 ? "topSection mt-3 d-flex justify-content-center flex-column align-items-center" : "topSection mt-2 pt-5 d-flex justify-content-center flex-column align-items-center"}>
         <img className='Image' src={require("./Dhruv.jpg")} alt="" srcset="" />
         <h1 className='text-light mt-2 h1'>Dhruv Gupta</h1>
         {/* <a href="https://spotify-provider.vercel.app/api/now-playing?open" target="_blank" rel="noopener noreferrer">
@@ -39,6 +39,13 @@ function App() {
           <a href="mailto:dhruvgupta742@gmail.com" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none"} id='gmail'>
             <img src={require('./gmail.png')} width="30" alt="" srcset="" className='marginRight' />
             dhruvgupta742@gmail
+          </a>
+
+          <a href="https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='linkedin'>
+
+            <img src={require('./MSLearn_SA_badge_generic_rgb_300ppi.png')} width="35" alt="" srcset="" className='marginRight' />
+            Microsoft learn profile
+
           </a>
 
           <a href="https://github.com/MR-DHRUV" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='github'>
@@ -108,7 +115,7 @@ function App() {
       </div> 
 
       <div className={window.innerWidth < 780 ? "container-xxl mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center" : "container mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center w-50 px-5"}>
-        <h2 className='text-white fw-bold'>Jamm Out To Some Music</h2>
+        <h2 className='text-white fw-bold text-start w-100 ps-2'>#Jamm Out To Some Music</h2>
         <div className={window.innerWidth < 780 ? "pb-0 border rounded spotifyPlayer responsiveWidth d-flex justify-content-center flex-column align-items-center" : 'pb-0 border rounded spotifyPlayer d-flex justify-content-center flex-column align-items-center w-100'}>
           <iframe title='SpotifyPlayer' src="https://open.spotify.com/embed/playlist/1TkzdrSSNyST2inQVH8bel?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
       </div>
