@@ -31,7 +31,7 @@ function App() {
             <div id='stars3'></div>
 
 
-            <div className={window.innerWidth < 780 ? "topSection mt-3 d-flex justify-content-center flex-column align-items-center" : "topSection mt-2 pt-5 d-flex justify-content-center flex-column align-items-center"}>
+            <div className={window.innerWidth < 780 ? "topSection mt-5 d-flex justify-content-center flex-column align-items-center" : "topSection mt-5 pt-5 d-flex justify-content-center flex-column align-items-center"}>
               <img className='Image' src={require("./Dhruv.jpg")} alt="" srcset="" />
               <h1 className='text-light mt-2 h1'>Dhruv Gupta</h1>
               {/* <a href="https://spotify-provider.vercel.app/api/now-playing?open" target="_blank" rel="noopener noreferrer">
@@ -73,10 +73,10 @@ function App() {
                   Connect with me
                 </a>
 
-                <a href="https://instagram.com/dhruv._0810" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="instagram">
+                {/* <a href="https://instagram.com/dhruv._0810" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="instagram">
                   <img src={require('./instagram.png')} width="30" alt="" srcset="" className='marginRight' />
                   @dhruv._0810
-                </a>
+                </a> */}
 
 
 
