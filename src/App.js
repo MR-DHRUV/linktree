@@ -148,6 +148,14 @@ function App() {
                   window.location.href = 'https://auth.geeksforgeeks.org/user/gdhruv';
                   return null;
                 }} />
+        <Route path='/resume' component={() => {
+                  window.location.href = 'https://drive.google.com/file/d/16oosFQyPsfFLvqQVk9dzPw_WwXWthBZc/view?usp=sharing';
+                  return null;
+                }} />
+        <Route path='/in/insta' component={() => {
+                  window.location.href = 'https://instagram.com/dhruv._0810';
+                  return null;
+                }} />
       </Switch>
     </Router>
 
