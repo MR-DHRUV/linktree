@@ -31,7 +31,7 @@ function App() {
             <div id='stars3'></div>
 
 
-            <div className={window.innerWidth < 780 ? "topSection mt-5 d-flex justify-content-center flex-column align-items-center" : "topSection mt-5 pt-5 d-flex justify-content-center flex-column align-items-center"}>
+            <div className={window.innerWidth < 780 ? "topSection mt-3 d-flex justify-content-center flex-column align-items-center" : "topSection mt-4 pt-5 d-flex justify-content-center flex-column align-items-center"}>
               <img className='Image' src={require("./Dhruv.jpg")} alt="" srcset="" />
               <h1 className='text-light mt-2 h1'>Dhruv Gupta</h1>
               {/* <a href="https://spotify-provider.vercel.app/api/now-playing?open" target="_blank" rel="noopener noreferrer">
@@ -41,37 +41,43 @@ function App() {
 
             {/* <div className="container-xxl bottomSection bg-dark p-2 text-dark bg-opacity-50 my-5 py-5 border border-light border-opacity-50 rounded d-flex flex-column align-items-center"> */}
 
-            <div className={window.innerWidth < 780 ? 'container-xxl bottomSection p-0 d-flex flex-column align-items-center mt-5' : 'container-xxl bottomSection p-2 d-flex flex-column align-items-center mt-5'}>
+            <div className={window.innerWidth < 780 ? 'container-xxl bottomSection p-0 d-flex flex-column align-items-center mt-3' : 'container-xxl bottomSection p-2 d-flex flex-column align-items-center mt-4'}>
 
               <ul className={window.innerWidth < 780 ? "list-group responsiveWidth" : "list-group w-75 mx-5 px-5"}>
                 <h2 className='text-white fw-bold'>#Socials</h2>
 
-                <a href="mailto:dhruvgupta742@gmail.com" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none"} id='gmail'>
-                  <img src={require('./gmail.png')} width="30" alt="" srcset="" className='marginRight' />
-                  dhruvgupta742@gmail
-                </a>
-
-                <a href="https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='linkedin'>
-
+                <a href="https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none"} id='linkedin'>
                   <img src={require('./MSLearn_SA_badge_generic_rgb_300ppi.png')} width="35" alt="" srcset="" className='marginRight' />
                   Microsoft learn profile
+                </a>
+
+                <a href="https://auth.geeksforgeeks.org/user/gdhruv" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='gfg'>
+
+                  <img src={require('./GeeksforGeeks.png')} width="34" alt="" srcset="" className='marginRight' />
+                  Coding Profile
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='linkedin'>
+
+                  <img src={require('./linkedin.png')} width="30" alt="" srcset="" className='marginRight' />
+                  LinkedIn
+                </a>
+
+                <a href="/resume" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='github'>
+
+                  <img src={require('./cv.png')} width="30" alt="" srcset="" className='marginRight' />
+                  Resume
 
                 </a>
 
                 <a href="https://github.com/MR-DHRUV" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='github'>
 
                   <img src={require('./github.png')} width="30" alt="" srcset="" className='marginRight' />
-                  View my repositories
+                  GitHub
 
                 </a>
 
-                {/* className={window.innerWidth <780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" :"list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none"} */}
-
-                <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='linkedin'>
-
-                  <img src={require('./linkedin.png')} width="30" alt="" srcset="" className='marginRight' />
-                  Connect with me
-                </a>
 
                 {/* <a href="https://instagram.com/dhruv._0810" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="instagram">
                   <img src={require('./instagram.png')} width="30" alt="" srcset="" className='marginRight' />
@@ -79,10 +85,9 @@ function App() {
                 </a> */}
 
 
-
-                <a href="https://auth.geeksforgeeks.org/user/gdhruv" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='gfg'>
-                  <img src={require('./GeeksforGeeks.png')} width="34" alt="" srcset="" className='marginRight' />
-                  gdhruv
+                <a href="mailto:dhruvgupta742@gmail.com" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='gmail'>
+                  <img src={require('./gmail.png')} width="30" alt="" srcset="" className='marginRight' />
+                  Mail
                 </a>
               </ul>
 
@@ -133,29 +138,29 @@ function App() {
           </div>
         </Route>
         <Route path='/linkedin' component={() => {
-                  window.location.href = 'https://www.linkedin.com/in/dhruv-gupta-55034a228/';
-                  return null;
-                }} />
+          window.location.href = 'https://www.linkedin.com/in/dhruv-gupta-55034a228/';
+          return null;
+        }} />
         <Route path='/github' component={() => {
-                  window.location.href = 'https://github.com/MR-DHRUV';
-                  return null;
-                }} />
+          window.location.href = 'https://github.com/MR-DHRUV';
+          return null;
+        }} />
         <Route path='/mlsa' component={() => {
-                  window.location.href = 'https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99';
-                  return null;
-                }} />
+          window.location.href = 'https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99';
+          return null;
+        }} />
         <Route path='/gfg' component={() => {
-                  window.location.href = 'https://auth.geeksforgeeks.org/user/gdhruv';
-                  return null;
-                }} />
+          window.location.href = 'https://auth.geeksforgeeks.org/user/gdhruv';
+          return null;
+        }} />
         <Route path='/resume' component={() => {
-                  window.location.href = 'https://drive.google.com/file/d/16oosFQyPsfFLvqQVk9dzPw_WwXWthBZc/view?usp=sharing';
-                  return null;
-                }} />
+          window.location.href = 'https://drive.google.com/file/d/16oosFQyPsfFLvqQVk9dzPw_WwXWthBZc/view?usp=sharing';
+          return null;
+        }} />
         <Route path='/in/insta' component={() => {
-                  window.location.href = 'https://instagram.com/dhruv._0810';
-                  return null;
-                }} />
+          window.location.href = 'https://instagram.com/dhruv._0810';
+          return null;
+        }} />
       </Switch>
     </Router>
 
