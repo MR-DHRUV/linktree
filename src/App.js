@@ -5,8 +5,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useLocation,
 } from 'react-router-dom'
 
 function App() {
@@ -33,7 +31,7 @@ function App() {
 
             <div className={window.innerWidth < 780 ? "topSection mt-3 d-flex justify-content-center flex-column align-items-center" : "topSection mt-4 pt-5 d-flex justify-content-center flex-column align-items-center"}>
               <img className='Image' src={require("./Dhruv.jpg")} alt="" srcset="" />
-              <h1 className='text-light mt-2 h1'>Dhruv Gupta</h1>
+              <h1 className='text-light mt-2 h1 fw-bold'>Dhruv Gupta</h1>
               {/* <a href="https://spotify-provider.vercel.app/api/now-playing?open" target="_blank" rel="noopener noreferrer">
           <img src="https://spotify-provider.vercel.app/api/now-playing" alt='' />
         </a> */}
@@ -44,7 +42,7 @@ function App() {
             <div className={window.innerWidth < 780 ? 'container-xxl bottomSection p-0 d-flex flex-column align-items-center mt-3' : 'container-xxl bottomSection p-2 d-flex flex-column align-items-center mt-4'}>
 
               <ul className={window.innerWidth < 780 ? "list-group responsiveWidth" : "list-group w-75 mx-5 px-5"}>
-                <h2 className='text-white fw-bold'>#Socials</h2>
+                <h2 className='text-white fw-semibold'>#Socials</h2>
 
                 <a href="https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none"} id='linkedin'>
                   <img src={require('./MSLearn_SA_badge_generic_rgb_300ppi.png')} width="35" alt="" srcset="" className='marginRight' />
@@ -93,7 +91,7 @@ function App() {
 
 
               <ul className={window.innerWidth < 780 ? "list-group mt-5 pt-3 responsiveWidth" : "list-group w-75 mx-5 px-5 mt-5 pt-3"}>
-                <h2 className='text-white fw-bold'>#Projects</h2>
+                <h2 className='text-white fw-semibold'>#Projects</h2>
                 <a href="https://api-authify.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" id='authify'>
 
 
@@ -130,7 +128,7 @@ function App() {
             </div>
 
             <div className={window.innerWidth < 780 ? "container-xxl mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center" : "container mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center w-50 px-5"}>
-              <h2 className='text-white fw-bold text-start w-100 ps-2'>#Jamm Out To Some Music</h2>
+              <h2 className='text-white fw-semibold text-start w-100 ps-2'>#Jamm Out To Some Music</h2>
               <div className={window.innerWidth < 780 ? "pb-0 border rounded spotifyPlayer responsiveWidth d-flex justify-content-center flex-column align-items-center" : 'pb-0 border rounded spotifyPlayer d-flex justify-content-center flex-column align-items-center w-100'}>
                 <iframe title='SpotifyPlayer' src="https://open.spotify.com/embed/playlist/1TkzdrSSNyST2inQVH8bel?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
             </div>
