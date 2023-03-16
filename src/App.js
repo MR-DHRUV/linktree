@@ -22,7 +22,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path='/'>
-          <div className="">
+          <div className="" id="mainCon">
 
             <div id='stars'></div>
             <div id='stars2'></div>
@@ -30,7 +30,7 @@ function App() {
 
 
             <div className={window.innerWidth < 780 ? "topSection mt-3 d-flex justify-content-center flex-column align-items-center" : "topSection mt-4 pt-5 d-flex justify-content-center flex-column align-items-center"}>
-              <img className='Image' src={require("./Dhruv.jpg")} alt="" srcset="" />
+              <img className='Image' src={require("./Assets/Dhruv.jpg")} alt="" srcset="" />
               <h1 className='text-light mt-2 h1 fw-bold'>Dhruv Gupta</h1>
               {/* <a href="https://spotify-provider.vercel.app/api/now-playing?open" target="_blank" rel="noopener noreferrer">
           <img src="https://spotify-provider.vercel.app/api/now-playing" alt='' />
@@ -45,46 +45,46 @@ function App() {
                 <h2 className='text-white fw-semibold'>#Socials</h2>
 
                 <a href="https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none"} id='linkedin'>
-                  <img src={require('./MSLearn_SA_badge_generic_rgb_300ppi.png')} width="35" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/MSLearn_SA_badge_generic_rgb_300ppi.png')} width="35" alt="" srcset="" className='marginRight' />
                   Microsoft learn profile
                 </a>
 
                 <a href="https://auth.geeksforgeeks.org/user/gdhruv" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='gfg'>
 
-                  <img src={require('./GeeksforGeeks.png')} width="34" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/GeeksforGeeks.png')} width="34" alt="" srcset="" className='marginRight' />
                   Coding Profile
 
                 </a>
 
                 <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='linkedin'>
 
-                  <img src={require('./linkedin.png')} width="30" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/linkedin.png')} width="30" alt="" srcset="" className='marginRight' />
                   LinkedIn
                 </a>
 
                 <a href="/resume" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='github'>
 
-                  <img src={require('./cv.png')} width="30" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/cv.png')} width="30" alt="" srcset="" className='marginRight' />
                   Résumé
 
                 </a>
 
                 <a href="https://github.com/MR-DHRUV" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='github'>
 
-                  <img src={require('./github.png')} width="30" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/github.png')} width="30" alt="" srcset="" className='marginRight' />
                   GitHub
 
                 </a>
 
 
                 {/* <a href="https://instagram.com/dhruv._0810" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="instagram">
-                  <img src={require('./instagram.png')} width="30" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/instagram.png')} width="30" alt="" srcset="" className='marginRight' />
                   @dhruv._0810
                 </a> */}
 
 
                 <a href="mailto:dhruvgupta742@gmail.com" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='gmail'>
-                  <img src={require('./gmail.png')} width="30" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/gmail.png')} width="30" alt="" srcset="" className='marginRight' />
                   Mail
                 </a>
               </ul>
@@ -92,36 +92,33 @@ function App() {
 
               <ul className={window.innerWidth < 780 ? "list-group mt-5 pt-3 responsiveWidth" : "list-group w-75 mx-5 px-5 mt-5 pt-3"}>
                 <h2 className='text-white fw-semibold'>#Projects</h2>
-                <a href="https://api-authify.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" id='authify'>
-
-
-                  <img src={require('./Screenshot 2022-08-15 170151.png')} width="30" alt="" srcset="" className='marginRight' />
-                  Authify
-
+                <a href="https://github.com/MR-DHRUV/Automate_certificate_generation_and_mailing" target="_blank" rel="noopener noreferrer" className="list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" id='shotify'>
+                  <img src={require('./Assets/certificate.png')} width="30" alt="" srcset="" className='marginRight' />
+                  Automate certificate generation and mailing
                 </a>
+                <a href="https://mr-dhruv.github.io/Authify-Docx/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='authify'>
 
+                  <img src={require('./Assets/Screenshot 2022-08-15 170151.png')} width="30" alt="" srcset="" className='marginRight' />
+                  Authify
+                </a>
+                <a href="https://mr-dhruv.github.io/Axonify-The-Secrect-Messenging-API/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='authify'>
+
+                  <img src={require('./Assets/axonify.png')} width="30" alt="" srcset="" className='marginRight' />
+                  Axonify
+                </a>
                 <a href="https://mausam-mr-dhruv.vercel.app/#/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='mausam'>
 
-                  <img src={require('./660e0ad8-623c-4c61-a34a-9703b685c217.png')} width="30" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/660e0ad8-623c-4c61-a34a-9703b685c217.png')} width="30" alt="" srcset="" className='marginRight' />
                   Mausam
                 </a>
                 <a href="https://notify-mr-dhruv.vercel.app/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='notify'>
 
-                  <img src={require('./writing192.png')} width="30" alt="" srcset="" className='marginRight' />
+                  <img src={require('./Assets/writing192.png')} width="30" alt="" srcset="" className='marginRight' />
 
                   Notify
                 </a>
-                <a href="https://links-mrdhruv.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='shotify'>
-                  <img src={require('./favicon.ico')} width="30" alt="" srcset="" className='marginRight' />
-                  Shotify
-                </a>
-                <a href="https://mr-dhruv.github.io/Textify.me/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='texify'>
-                  <img src={require('./favicon(1)(1).png')} width="30" alt="" srcset="" className='marginRight' />
-                  Textify
-                </a>
-
-                <a href="https://api-tunify.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="authify">
-                  <img src={require('./music.png')} width="34" alt="" srcset="" className='marginRight' />
+                <a href="https://mr-dhruv.github.io/Tunify-The-Music-API/" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id="authify">
+                  <img src={require('./Assets/music.png')} width="34" alt="" srcset="" className='marginRight' />
                   Tunify
                 </a>
               </ul>
@@ -135,6 +132,10 @@ function App() {
 
           </div>
         </Route>
+        <Route path='/gencert' component={() => {
+          window.location.href = 'https://github.com/MR-DHRUV/Automate_certificate_generation_and_mailing';
+          return null;
+        }} />
         <Route path='/linkedin' component={() => {
           window.location.href = 'https://www.linkedin.com/in/dhruv-gupta-55034a228/';
           return null;
