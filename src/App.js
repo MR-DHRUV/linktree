@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import './Background.css'
 import {
@@ -9,13 +9,11 @@ import {
 
 function App() {
 
-  let width
+  const [width, setWidth] = useState(1500);
+
   useEffect(() => {
-
-    width = window.innerWidth;
-
+    setWidth(window.innerWidth);
   }, [])
-
 
 
   return (
@@ -46,7 +44,7 @@ function App() {
 
                 <a href="https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none"} id='linkedin'>
                   <img src={require('./Assets/MSLearn_SA_badge_generic_rgb_300ppi.png')} width="35" alt="" srcset="" className='marginRight' />
-                  Microsoft learn profile
+                  Microsoft Learn
                 </a>
 
                 <a href="https://auth.geeksforgeeks.org/user/gdhruv" target="_blank" rel="noopener noreferrer" className={window.innerWidth < 780 ? "list-group-item h5 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-2" : "list-group-item h4 bg-dark text-white p-3 broder rounded d-flex flex-row justify-content-center align-items-center bg-opacity-50 border border-light border-opacity-50 rounded text-decoration-none mt-3"} id='gfg'>
