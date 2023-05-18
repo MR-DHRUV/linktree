@@ -125,7 +125,10 @@ function App() {
             <div className={window.innerWidth < 780 ? "container-xxl mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center" : "container mb-5 pb-5 mt-5 pt-3 d-flex justify-content-center flex-column align-items-center w-50 px-5"}>
               <h2 className='text-white fw-semibold text-start w-100 ps-2'>#Jamm Out To Some Music</h2>
               <div className={window.innerWidth < 780 ? "pb-0 border rounded spotifyPlayer responsiveWidth d-flex justify-content-center flex-column align-items-center" : 'pb-0 border rounded spotifyPlayer d-flex justify-content-center flex-column align-items-center w-100'}>
-                <iframe title='SpotifyPlayer' src="https://open.spotify.com/embed/playlist/1TkzdrSSNyST2inQVH8bel?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+                {/* <iframe title='SpotifyPlayer' src="https://open.spotify.com/embed/playlist/1TkzdrSSNyST2inQVH8bel?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> */}
+
+                <iframe title='SpotifyPlayer1' src="https://open.spotify.com/embed/playlist/39d35DN2b1DkxEc2obaXF9?utm_source=generator&theme=0" width="100%" height="400"  allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading='lazy' ></iframe>
+              </div>
             </div>
 
           </div>
