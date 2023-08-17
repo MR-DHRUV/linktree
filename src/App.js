@@ -146,7 +146,7 @@ function App() {
           return null;
         }} />
         <Route path='/mlsa' component={() => {
-          window.location.href = 'https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99';
+          window.location.href = 'https://mvp.microsoft.com/en-US/studentambassadors/profile/94bd7ac2-103e-4759-bb0f-e105df38ca99';
           return null;
         }} />
         <Route path='/gfg' component={() => {
